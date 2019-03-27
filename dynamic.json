@@ -1,0 +1,47 @@
+{
+  "profile1":{
+    "image":"images/imag2.jpg",
+    "name":"Jaya Kopparapu",
+    "designation":"Student",
+    "emailid":"jaya.kopparapu@gmail.com",
+    "phoneno":"9182000508"
+  },
+  "career":{
+    "info":"to success in life"
+  },
+  "education":
+  [
+  {
+    "Qualification":"B.Tech",
+    "Institute":"MITS",
+    "YOP":"2021",
+    "Percentage":"88%"
+  },
+  {
+    "Qualification":"Intermediate",
+    "Institute":"Narayana College",
+    "YOP":"2017",
+    "Percentage":"97.1%"
+  },
+  {
+    "Qualification":"SSC",
+    "Institute":"Niveditha High school",
+    "YOP":"2015",
+    "Percentage":"92%"
+  }
+],
+"skills":[
+  {
+  "name":"Web Technologies",
+  "info":["html", "css", "js"]
+},
+{
+  "name":"database",
+  "info":["sql", "jdbc"]
+},
+{
+  "name":"OS",
+  "info":["windows","linux"]
+}
+]
+}

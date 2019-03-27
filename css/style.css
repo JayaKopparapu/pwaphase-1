@@ -1,0 +1,49 @@
+body{
+  background:#C39BD3;
+  text-align:center;
+}
+h1{
+  color:#154360;
+  font-weight:400;
+  font-style:oblique;
+}
+.parent{
+  background:#D1F2EB;
+  border: 2px solid #45B39D;
+  border-radius:15% ;
+  display: flex;
+  justify-content:center;
+  margin:4%;
+  padding:7%;
+}
+.child{
+  background:#FDEDEC;
+  border-radius:5%;
+  width: 30%;
+  border: 2px solid #4A235A;
+  padding:3%;
+  marging:2%;
+  text-align:center;
+}
+img{
+  width: 45%;
+  height:50%;
+}
+@media screen and (max-width:767px){
+  .parent{
+    flex-wrap:wrap;
+  }
+.child{
+  width:100%;
+}
+
+}
+@media screen and (min-width:768px) and (max-width:1023px){
+  .parent{
+    flex-wrap:wrap;
+  }
+.child{
+  width:40%;
+}
+
+}
